@@ -1,6 +1,7 @@
 {
   "name": "SimplifyerDevLogger",
   "version": "0.0.1",
+  "main": "./src/app.ts",
   "description": "Development console log",
   "scripts": {
     "build": "npm run clear && webpack --mode=production",
