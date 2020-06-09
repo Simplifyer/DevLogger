@@ -21,7 +21,7 @@
         "@typescript-eslint"
     ],
     "rules": {
-
+        "@typescript-eslint/no-explicit-any": [ 0, { "ignoreRestArgs": true } ],
         "for-direction": "error", // создан бесконечный цикл for
         "getter-return": "error", // тело геттера не включает в себя return
         "no-async-promise-executor": "error", // исполнительная функция промиса является асинхронной
